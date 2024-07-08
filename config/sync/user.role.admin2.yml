@@ -1,0 +1,16 @@
+uuid: 2067333c-2aaa-4d2b-83c1-d1f44f8972a4
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.products
+  module:
+    - node
+id: admin2
+label: admin2
+weight: 5
+is_admin: null
+permissions:
+  - 'create products content'
+  - 'edit any products content'
+  - 'edit own products content'

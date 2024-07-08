@@ -1,0 +1,14 @@
+uuid: 3044ae0d-9c9f-453d-bfeb-b9423fe1fc67
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.admin1
+  module:
+    - user
+id: user_add_role_action.admin1
+label: 'Add the admin1 role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: admin1

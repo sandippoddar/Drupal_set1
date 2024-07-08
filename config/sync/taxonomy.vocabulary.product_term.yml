@@ -1,0 +1,9 @@
+uuid: e88515e0-54f3-4d22-9f01-6bb085649c46
+langcode: en
+status: true
+dependencies: {  }
+name: 'Product Term'
+vid: product_term
+description: null
+weight: 0
+new_revision: false

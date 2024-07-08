@@ -1,0 +1,6 @@
+_core:
+  default_config_hash: sB7-4QwKGOfBozmkLn7UKvbh13RBmpGu3MEkGFJFncA
+simple_content_notifications_active: false
+simple_content_notifications_live_domain: drupal.org
+simple_content_notifications_in_dev: 0
+simple_content_notifications_logging: true

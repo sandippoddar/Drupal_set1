@@ -1,0 +1,29 @@
+_core:
+  default_config_hash: lqgpqHWPl_Pw9TRyZ9tqgNM1-ah9HMX3fwfU49_Ihck
+admin_content_notification_node_types:
+  products: products
+  article: null
+  page: null
+  webform: null
+admin_content_notification_trigger_on_node_update: null
+admin_content_notification_trigger_on_node_status: 0
+admin_content_notification_allowed_roles:
+  admin1: admin1
+  admin2: admin2
+  admin3: admin3
+  anonymous: null
+  authenticated: null
+  content_editor: null
+  administrator: null
+admin_content_notification_email_limit: 50
+admin_content_notification_email: ''
+admin_content_notification_roles_notified:
+  administrator: administrator
+  authenticated: null
+  content_editor: null
+  admin1: null
+  admin2: null
+  admin3: null
+admin_content_notification_email_subject: 'New Content @action'
+admin_content_notification_email_body: 'A new content has been @action on your site <br/> Submitted by : @user_who_posted <br/> New content link : @content_link'
+admin_content_notification_default_to: sandip.poddar@innoraft.com

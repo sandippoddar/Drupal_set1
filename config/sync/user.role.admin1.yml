@@ -1,0 +1,21 @@
+uuid: 6c132acf-8fe8-4c1b-bc5d-8b7015cacece
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.products
+  module:
+    - admin_toolbar_search
+    - node
+    - toolbar
+id: admin1
+label: admin1
+weight: 4
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'create products content'
+  - 'edit any products content'
+  - 'edit own products content'
+  - 'use admin toolbar search'

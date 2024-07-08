@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
+langcode: en
+uuid: abf6efd9-43d0-49d5-9554-e77a2761168b
+name: Local Ecommerce Platform
+mail: sandip.poddar@innoraft.com
+slogan: ''
+page:
+  403: /node/63
+  404: /node/64
+  front: /node/62
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: null
