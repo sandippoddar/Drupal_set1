@@ -1,0 +1,39 @@
+uuid: 9986a812-95ab-4fa1-b123-6572fb6a3e02
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.employee_salary.field_salary_process
+    - field.field.node.employee_salary.field_user_name
+    - node.type.employee_salary
+  module:
+    - entity_reference_revisions
+    - user
+id: node.employee_salary.default
+targetEntityType: node
+bundle: employee_salary
+mode: default
+content:
+  field_salary_process:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_user_name:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

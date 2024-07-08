@@ -1,0 +1,31 @@
+uuid: 09eaa163-b1cf-40f9-87fb-a20b9d0811c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_salary_process
+    - node.type.employee_salary
+    - paragraphs.paragraphs_type.salary_process
+  module:
+    - entity_reference_revisions
+id: node.employee_salary.field_salary_process
+field_name: field_salary_process
+entity_type: node
+bundle: employee_salary
+label: 'Salary Process List'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      salary_process: salary_process
+    negate: 0
+    target_bundles_drag_drop:
+      salary_process:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

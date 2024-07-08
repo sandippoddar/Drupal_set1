@@ -1,0 +1,31 @@
+uuid: 5f2a8da6-0510-4166-a6c2-f1e390127536
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.salary_process.field_salary
+    - field.field.paragraph.salary_process.field_salary_date
+    - paragraphs.paragraphs_type.salary_process
+  module:
+    - datetime
+id: paragraph.salary_process.default
+targetEntityType: paragraph
+bundle: salary_process
+mode: default
+content:
+  field_salary:
+    type: number
+    weight: 0
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_salary_date:
+    type: datetime_default
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

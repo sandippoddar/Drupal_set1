@@ -1,0 +1,21 @@
+uuid: acb63ccc-eed5-47ae-ba53-af45340a6f4e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_salary_date
+    - paragraphs.paragraphs_type.salary_process
+  module:
+    - datetime
+id: paragraph.salary_process.field_salary_date
+field_name: field_salary_date
+entity_type: paragraph
+bundle: salary_process
+label: 'Salary Date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime
