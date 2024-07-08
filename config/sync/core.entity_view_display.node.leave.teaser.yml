@@ -1,0 +1,24 @@
+uuid: 8c45a95d-4512-4bf2-ba0a-e382c5523b42
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.leave.field_leave_date
+    - field.field.node.leave.field_leave_of_user
+    - node.type.leave
+  module:
+    - user
+id: node.leave.teaser
+targetEntityType: node
+bundle: leave
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_leave_date: true
+  field_leave_of_user: true

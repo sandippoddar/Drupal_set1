@@ -1,0 +1,20 @@
+uuid: 1687708d-c0ef-4dca-8746-ec0a9ad9da32
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.employee_salary
+    - node.type.leave
+  module:
+    - admin_toolbar_search
+    - node
+    - paragraphs_type_permissions
+id: hr
+label: HR
+weight: 4
+is_admin: null
+permissions:
+  - 'edit any employee_salary content'
+  - 'edit any leave content'
+  - 'update paragraph content salary_process'
+  - 'use admin toolbar search'
