@@ -1,0 +1,27 @@
+uuid: 5cd31cba-7baf-4055-afc0-359ca18dd3a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.home_page_banner.field_banner_image
+    - image.style.medium
+    - paragraphs.paragraphs_type.home_page_banner
+  module:
+    - image
+id: paragraph.home_page_banner.default
+targetEntityType: paragraph
+bundle: home_page_banner
+mode: default
+content:
+  field_banner_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }
